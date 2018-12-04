@@ -50,7 +50,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   margin: 10px auto 10px auto;
-  width: 25vw;
+  min-width: 100vw;
 }
 
 a:hover, a:active {
