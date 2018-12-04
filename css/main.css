@@ -1,0 +1,57 @@
+html, body {
+  height: auto;
+  min-height: 100%;
+  font-size: 28px;
+}
+
+body {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  padding:0;
+  margin:0;
+  color: #000;
+  text-align: center;
+  background: #85cdff url("../img/church1.jpg") no-repeat fixed center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.main {
+  margin: 50vh 50vw;
+}
+
+.measure {
+  margin: 0 auto;
+  max-width: 72rem;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.main h1, h2, h3 {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.36);
+}
+
+a:link, a:visited {
+  background-color: rgba(255, 255, 255, 0.60);
+  color: #000;
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px auto 10px auto;
+  width: 25vw;
+}
+
+a:hover, a:active {
+  background-color: rgba(255, 255, 255, 1.0);
+}
